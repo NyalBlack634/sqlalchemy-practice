@@ -1,0 +1,13 @@
+'headline_paths': 
+Table('headline_paths', MetaData(bind=Engine(sqlite:///serach_index.db)),
+Column('id', INTEGER(), table=<headline_paths>, primary_key=True), 
+Column('path', NullType(), table=<headline_paths>), 
+schema=None),
+
+
+'headline_size': 
+Table('headline_size', MetaData(bind=Engine(sqlite:///serach_index.db)), 
+Column('id', INTEGER(), table=<headline_size>, primary_key=True), 
+Column('width', INTEGER(), table=<headline_size>), 
+Column('height', INTEGER(), table=<headline_size>), 
+schema=None),
